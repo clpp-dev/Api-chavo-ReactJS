@@ -1,3 +1,12 @@
 .headerApi{
-    background-color: cyan;
+    width: 100%;
+    background-color: #009432;
+}
+.tituloApi{
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 1rem 0px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
 }

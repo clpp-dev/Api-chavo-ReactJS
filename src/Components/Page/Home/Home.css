@@ -1,0 +1,6 @@
+.PageHome{
+    background-color: #f1f2f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

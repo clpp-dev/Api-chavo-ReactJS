@@ -3,6 +3,45 @@
     grid-template-columns: repeat(3,1fr);
 }
 
-.card img{
-    max-width: 250px;
+.card{
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #20bf6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 0 #0cec74;
+}
+.titulo{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.card .imgpersoanje{
+    max-width: 90%;
+    border-radius: 0.5rem;
+}
+
+.categoria{
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.frase{
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 1rem 0;
+    width: 80%;
+}
+
+@media  (max-width: 768px){
+    .grid-card{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

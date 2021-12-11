@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 import './Home.css'
-import { ContCard } from '../../Layout/ContCard/ContCard';
-import { Header } from '../../UI/Header/Header';
+import { Header } from '../../UI/Header/Header'
+import {Contcard} from '../../Layout/ContCard/ContCard'
 
 export const Home = () => {
     return (
-        <div className="pageHome">
+        <div className="PageHome">
             <Header/>
-            <ContCard/>
+            <Contcard/>
         </div>
     )
 }
